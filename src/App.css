@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* .bg_img{
+  background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvjc7yB-0jzzNb4lg6IV8f2lUz815e9RXT-A&usqp=CAU');
+  background-repeat: no-repeat;
+  background-size: cover;
+} */
+
+::-webkit-datetime-edit-year-field:not([aria-valuenow]),
+::-webkit-datetime-edit-month-field:not([aria-valuenow]),
+::-webkit-datetime-edit-day-field:not([aria-valuenow]) {
+    color: transparent;
+}
+.align_np{
+  display: flex;
+  justify-content: end;
+}
+.brdr{
+  border-bottom: 2px solid blue;
+}
